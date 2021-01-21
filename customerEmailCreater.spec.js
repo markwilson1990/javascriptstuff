@@ -1,8 +1,18 @@
 let date = new Date();
-let emailBegin = date.getTime();
+let emailPrefix = date.getTime();
 
 function generateEmail() {
-   return console.log(emailBegin + "@veryrealemail.com");
+    return emailPrefix + "@veryrealemail.com";
+}
+
+function copyToClipboard(value){
+  const el = document.createElement('textarea');
+  el.value = value;
+  document.body.appendChild(el);
+  el.select();
+  document.execCommand('copy');
+  document.body.removeChild(el);
 }
 
 generateEmail();
+copyToClipboard(generateEmail());
