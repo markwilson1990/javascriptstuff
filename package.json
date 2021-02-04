@@ -1,0 +1,24 @@
+{
+  "name": "javascriptstuff",
+  "version": "1.0.0",
+  "description": "js stuff",
+  "main": "customerEmailCreater.spec.js",
+  "dependencies": {
+    "cookie": "^0.4.1",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markwilson1990/javascriptstuff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markwilson1990/javascriptstuff/issues"
+  },
+  "homepage": "https://github.com/markwilson1990/javascriptstuff#readme"
+}
